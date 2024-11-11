@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://www.terminaltemple.com/ -->
+<html lang="en" class="h-full bg-gray-800"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Terminal Temple | Online Terminal Simulator</title><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name="description" content="Terminal Temple is an online terminal simulator. It is a web-based terminal emulator that simulates a terminal in your browser (shell, bash, zsh, etc.)."><link rel="icon" href="https://www.terminaltemple.com/favicon.png" type="image/png"><script defer="defer" src="./task_files/main.8b9c4dc6.js.download"></script><link href="./task_files/main.1f6a518a.css" rel="stylesheet"></head><body class="h-full bg-gray-800"><noscript>You need to enable JavaScript to run this app.</noscript><div id="app" class="h-full overflow-y-scroll"><div class="relative whitespace-pre-wrap break-all bg-gray-800 font-mono text-gray-100 outline-none selection:bg-pink-500 selection:text-pink-100 min-h-full w-full" tabindex="0"><div class="relative"><div class="inline whitespace-normal break-normal"><h1 class="inline font-bold">Terminal Temple</h1><br><br><h2 class="inline text-gray-400">Online UNIX terminal simulator (bash, shell, zsh - Linux, Mac, BSD)</h2><br><br><p class="inline text-gray-400">Copyright © 2023 <a href="https://www.nikwen.de/" target="_blank" rel="noopener" class="underline hover:text-gray-500">Niklas Wenzel</a> (<a class="underline hover:text-gray-500" href="https://www.terminaltemple.com/imprint">Imprint</a> | <a class="underline hover:text-gray-500" href="https://www.terminaltemple.com/privacy">Privacy Policy</a>)</p><br><br><p class="inline text-gray-400"><span class="sr-only">Start typing your commands into the command line / console. </span>To print available commands, type "help" and press Enter.<span class="hidden lg:inline"> </span><br class="lg:hidden"><br class="lg:hidden"><a href="https://www.terminaltutor.com/" target="_blank" rel="noopener" class="underline hover:text-gray-500">Learn how to use the terminal.</a></p><br><br></div>terminal@terminal-temple ~ $&nbsp;ls
+Documents       Music           task.txt
+Downloads       Pictures        Task.txt
+echo
+terminal@terminal-temple ~ $&nbsp;cat task.txt
+hello world
+this is the test
+terminal@terminal-temple ~ $&nbsp;mkdir Desktop 
+terminal@terminal-temple ~ $&nbsp;ls 
+Desktop         Downloads       Pictures        Task.txt
+echo
+Documents       Music           task.txt
+terminal@terminal-temple ~ $&nbsp;cp task.txt Desktop
+terminal@terminal-temple ~ $&nbsp;cd Desktop
+terminal@terminal-temple Desktop $&nbsp;cp task.txt /Desktop
+terminal@terminal-temple Desktop $&nbsp;ls 
+task.txt
+terminal@terminal-temple Desktop $&nbsp;cd ..
+terminal@terminal-temple ~ $&nbsp;ls 
+Desktop         Downloads       Pictures        Task.txt
+echo
+Documents       Music           task.txt
+terminal@terminal-temple ~ $&nbsp;rm task.txt
+terminal@terminal-temple ~ $&nbsp;ls
+Desktop         Downloads       Pictures
+Documents       Music           Task.txt
+echo
+terminal@terminal-temple ~ $&nbsp;rm Task.txt
+rm: Task.txt: No such file or directory
+terminal@terminal-temple ~ $&nbsp;ls
+Desktop         Downloads       Pictures
+Documents       Music           Task.txt
+echo
+terminal@terminal-temple ~ $&nbsp;rm Task.txt
+rm: Task.txt: No such file or directory
+terminal@terminal-temple ~ $&nbsp;cat Task.txt
+cat: Task.txt: No such file or directory
+terminal@terminal-temple ~ $&nbsp;
+terminal@terminal-temple ~ $&nbsp;
+terminal@terminal-temple ~ $&nbsp;cat Task.txt
+cat: Task.txt: No such file or directory
+terminal@terminal-temple ~ $&nbsp;cd Desktop
+terminal@terminal-temple Desktop $&nbsp;cat task.txt
+hello world
+this is the test
+terminal@terminal-temple Desktop $&nbsp;<span><span class="bg-gray-100 text-gray-800 selection:bg-gray-100 selection:text-pink-500">​&nbsp;</span></span><textarea class="pointer-events-none absolute right-px bottom-px -z-10 h-px w-px opacity-0" id="terminal-fta" aria-describedby="terminal-fta-aria"></textarea><label for="terminal-fta" class="sr-only">Input</label><span id="terminal-fta-aria" class="sr-only">Input</span></div></div></div></body></html>
